@@ -1,0 +1,176 @@
+body,
+html {
+    padding: 0;
+	margin: 0;
+    background-color: white;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container-center {
+    display: grid;
+    justify-content: center;
+  }
+
+.flex {
+	display: flex;
+}
+
+
+body, p {
+	color: #777; 
+	font: 400 1rem/1.75rem "Open Sans", sans-serif;
+}
+
+.p-large {
+	font: 400 1.125rem/1.875rem "Open Sans", sans-serif;
+}
+
+.p-small {
+	font: 400 0.875rem/1.5rem "Open Sans", sans-serif;
+}
+
+.p-heading {
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+.text-orange {
+	color: #F86624;
+}
+
+h1 {
+	color: #333;
+	font: 700 2.625rem/3.375rem "Open Sans", sans-serif;
+}
+
+h2 {
+	color: #333;
+	font: 700 2.125rem/2.75rem "Open Sans", sans-serif;
+}
+
+h3 {
+	color: #333;
+	font: 700 1.75rem/2.375rem "Open Sans", sans-serif;
+}
+
+h4 {
+	color: #333;
+	font: 700 1.25rem/1.75rem "Open Sans", sans-serif;
+}
+
+h5 {
+	color: #333;
+	font: 700 1.125rem/1.625rem "Open Sans", sans-serif;
+}
+
+h6 {
+	color: #333;
+	font: 700 1rem/1.5rem "Open Sans", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*********************/
+/*    Navbar     */
+/*********************/
+
+
+.navbar {
+    padding: 1rem;
+}
+
+.logo-image {
+  width: 30%;
+  height: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+/*********************/
+/*    Header     */
+/*********************/
+.header {
+width: 100%;
+display: flex;
+flex-wrap: wrap; 
+justify-content: center; 
+background: url('../images/line.png');
+background-position: top;
+background-repeat: no-repeat; 
+background-size: cover; 
+padding-bottom: 15rem;
+}
+
+.grid {
+    display: grid;
+	column-gap: 2rem;
+    justify-content: center;
+    grid-auto-flow: column;
+	padding: 2rem;
+}
+
+.box-1 {
+    max-width: 100%;
+}
+
+.box-2 {
+	width: 500px;
+}
+
+.box-2 p {
+	display: block;
+	text-align: justify;
+}
+
+.line-curve {
+	margin-top: -20rem;
+}
+.image-header {
+width: 100%;
+}
+
+
+.circle {
+margin: 0.25rem; 
+background: #9350A0;
+transition-duration: 150ms; 
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+color: #ffffff; 
+width: 2.5rem; 
+height: 2.5rem; 
+cursor: pointer; 
+border-radius: 50%;
+
+}
+
+.circle:hover {
+	cursor: grab;
+}
+
+.circle svg {
+width: 1rem; 
+height: 100%; 
+margin: auto;
+}
+
+
+
+  
+   
